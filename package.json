@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "description": "Advanced AI-Driven Cybersecurity Platform with 6 Specialized Agents",
-  "keywords": ["cybersecurity", "ai", "penetration-testing", "threat-analysis", "bdi-htn"],
+  "keywords": [
+    "cybersecurity",
+    "ai",
+    "penetration-testing",
+    "threat-analysis",
+    "bdi-htn"
+  ],
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
